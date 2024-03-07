@@ -13,7 +13,7 @@ const About = () => {
 
       {/* <!-- ===== About Two Start ===== --> */}
       <section>
-        <div className="mx-auto max-w-c-1235  pt-35 overflow-hidden px-4 md:px-8 2xl:px-0">
+        <div className="mx-auto max-w-c-1235  pt-35 mb-1 overflow-hidden px-4 md:px-8 2xl:px-0">
           <div className="flex items-center gap-8 lg:gap-32.5">
             <motion.div
               variants={{
@@ -51,7 +51,7 @@ const About = () => {
               </p>
               <div>
                 <Link
-                  href="/portafolio"
+                  href={`/portafolio/`}
                   className="group mt-7.5 inline-flex items-center gap-2.5 text-black hover:text-primary dark:text-white dark:hover:text-primary"
                 >
                   <span className="duration-300 group-hover:pr-2">
