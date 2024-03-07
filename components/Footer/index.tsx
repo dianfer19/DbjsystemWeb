@@ -63,7 +63,7 @@ const Footer = () => {
               className="animate_top"
             >
               <p>
-                &copy; {new Date().getFullYear()} Dbjsystem. All rights reserved
+                &copy; {new Date().getFullYear()} Dbjsystem.
               </p>
             </motion.div>
 

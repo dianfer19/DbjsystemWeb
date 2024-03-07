@@ -12,8 +12,8 @@ const brandData: Brand[] = [
     id: 0.3,
     name: "Client",
     href: "#",
-    image: "/images/brand/java.svg",
-    imageLight: "/images/brand/java.svg",
+    image: "/images/brand/prometheus.svg",
+    imageLight: "/images/brand/prometheus.svg",
   },
   {
     id: 0.4,
@@ -40,8 +40,8 @@ const brandData: Brand[] = [
     id: 0.7,
     name: "Client",
     href: "#",
-    image: "/images/brand/postgresql.svg",
-    imageLight: "/images/brand/postgresql.svg",
+    image: "/images/brand/grafana.svg",
+    imageLight: "/images/brand/grafana.svg",
   },
 
 ];
