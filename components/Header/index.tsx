@@ -39,19 +39,19 @@ const Header = () => {
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <a href="/">
             <Image
-              src="/images/logo/logo.png"
+              src="/images/logo/logo_inverted.png"
               alt="logo"
-              width={40}
-              height={40}
+              width={120}
+              height={120}
               className="hidden w-full dark:block"
             />
             <Image
               src="/images/logo/logo.png"
               alt="logo"
-              width={40}
-              height={40}
+              width={120}
+              height={120}
               className="w-full dark:hidden"
-            />Dbjsystem
+            />
           </a>
 
           {/* <!-- Hamburger Toggle BTN --> */}

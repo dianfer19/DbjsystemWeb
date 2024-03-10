@@ -21,16 +21,16 @@ const tecnologyData: Tecnology[] = [
         name: "Docker",
         description: "Plataforma de contenedores que permite empaquetar aplicaciones en contenedores, promoviendo la portabilidad y la eficiencia."
     },
-    {
-        id: '05',
-        name: "Grafana",
-        description: "Herramienta de análisis y visualización de datos para monitorear operaciones a través de dashboards dinámicos."
-    },
-    {
-        id: '06',
-        name: "Prometheus",
-        description: "Sistema de monitoreo y alerta de código abierto diseñado para la fiabilidad, ofreciendo una solución de monitoreo multidimensional."
-    }
+    // {
+    //     id: '05',
+    //     name: "Grafana",
+    //     description: "Herramienta de análisis y visualización de datos para monitorear operaciones a través de dashboards dinámicos."
+    // },
+    // {
+    //     id: '06',
+    //     name: "Prometheus",
+    //     description: "Sistema de monitoreo y alerta de código abierto diseñado para la fiabilidad, ofreciendo una solución de monitoreo multidimensional."
+    // }
 ];
 
 export default tecnologyData;
