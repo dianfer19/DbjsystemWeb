@@ -4,7 +4,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 import Provider from "@/app/context/Provider";
 import Script from "next/script";
-
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata = {
   title: "Dbjsystem - Soluciones Tecnológicas y Desarrollo a Medida",
@@ -26,6 +26,7 @@ export default function RootLayout({
     <Provider>
       {children}
     </Provider>
+    <GoogleAnalytics gaId="G-FYN9V45R53" />
     <Script type="text/javascript">
       {
         ` (function(c,l,a,r,i,t,y){
