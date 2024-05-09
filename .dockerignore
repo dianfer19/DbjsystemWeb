@@ -1,0 +1,9 @@
+docker_base
+env
+logs
+venv
+.env
+/node_modules
+/.pnp
+.pnp.js
+.vscode
