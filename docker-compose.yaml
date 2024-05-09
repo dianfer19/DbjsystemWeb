@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+    frontend_web:
+      container_name: frontend_web
+      build:
+        context: .
+        dockerfile: Dockerfile
+        args:
+          TAG: 1.0
+      image: frontend_web:1.0
+      volumes:
+        - .:/app
+      ports:
+        - "3000:3000"
+      networks:
+        - erp_network
+
+networks:
+  erp_network:
+    name: erp_network
+    external: true
